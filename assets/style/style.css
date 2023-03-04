@@ -1,0 +1,636 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Inter&family=Montserrat&family=MuseoModerno:wght@300&family=Quicksand:wght@500&family=Raleway&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+header {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .logo {
+  font-family: "MuseoModerno", cursive;
+  color: #5fa064;
+}
+header #nave li {
+  display: inline-block;
+  margin-left: 25px;
+}
+header #nave li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #232323;
+}
+header .btn-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+header .btn-header a {
+  text-decoration: none;
+}
+header .btn-header .btn-01 {
+  color: #5fa064;
+}
+header .btn-header .btn-02 {
+  background: #5fa064;
+  padding: 10px 25px;
+  border-radius: 40px;
+  color: #f5f5f5;
+}
+
+#main-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#main-page img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+}
+#main-page .text-main {
+  display: grid;
+  gap: 40px;
+  width: 700px;
+  font-family: "Montserrat", sans-serif;
+}
+#main-page .text-main h1 {
+  font-size: 40px;
+}
+#main-page .text-main .main-text-child {
+  display: grid;
+  font-size: 30px;
+  gap: 10px;
+}
+#main-page .text-main .text-filho {
+  display: grid;
+  gap: 20px;
+}
+#main-page .text-main .text-filho div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+#main-page .text-main .text-filho div img {
+  display: block;
+  width: 100%;
+  max-width: 30px;
+}
+#main-page .text-main .btn-main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#main-page .text-main .btn-main .btn-main-01 {
+  text-decoration: none;
+  padding: 10px 25px;
+  background: #5fa064;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 20px;
+}
+#main-page .text-main .btn-main .btn-main-02 {
+  text-decoration: none;
+  color: #5fa064;
+  font-size: 20px;
+}
+
+.h1-app {
+  font-family: "Montserrat", sans-serif;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 200px;
+  color: #5fa064;
+}
+.h1-app h1 {
+  font-size: 50px;
+}
+
+#um-app {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+#um-app .sec-child-app {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#um-app .sec-child-app div {
+  width: 400px;
+  font-size: 14px;
+  border: solid 2px #5fa064;
+  background: #fff;
+  display: grid;
+  gap: 5px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+#um-app .sec-child-app div h1 {
+  color: #5fa064;
+}
+#um-app .sec-child-app div h1::before {
+  content: " ";
+  display: flex;
+  width: 30px;
+  height: 5px;
+  background: #5fa064;
+  position: relative;
+  border-radius: 5px;
+  top: -2px;
+}
+
+#envie-dinheiro {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+}
+#envie-dinheiro .text-dinheiro {
+  display: grid;
+  gap: 20px;
+  width: 600px;
+}
+#envie-dinheiro .text-dinheiro h1 {
+  font-size: 40px;
+}
+#envie-dinheiro .text-dinheiro p {
+  font-size: 20px;
+}
+#envie-dinheiro .text-dinheiro div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#envie-dinheiro .envie-saldo {
+  display: grid;
+  width: 600px;
+  gap: 20px;
+}
+#envie-dinheiro .envie-saldo div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+#envie-dinheiro .envie-saldo div div {
+  display: flex;
+}
+#envie-dinheiro .envie-saldo div div div {
+  display: grid;
+  margin-left: 10px;
+}
+#envie-dinheiro .envie-saldo div div div p {
+  color: #505050;
+}
+#envie-dinheiro .envie-saldo div span {
+  color: #232323;
+  font-size: 18px;
+}
+
+.h1-pagando-contas {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #5fa064;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#organize-dinheiro {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-family: "Montserrat", sans-serif;
+}
+#organize-dinheiro .organize-text {
+  width: 600px;
+  display: grid;
+  gap: 20px;
+}
+#organize-dinheiro .organize-text h1 {
+  font-size: 50px;
+}
+#organize-dinheiro .organize-text p {
+  font-size: 20px;
+}
+#organize-dinheiro .organize-text-02 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#organize-dinheiro .organize-text-02 a {
+  text-decoration: none;
+  color: #5fa064;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#organize-galeria-img {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+#organize-galeria-img img {
+  cursor: pointer;
+}
+#organize-galeria-img .galeria-child .galeria-child-01 {
+  background: #5fa064;
+  border-radius: 20px;
+}
+#organize-galeria-img .galeria-child span {
+  color: #505050;
+}
+
+#notificacoes {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#notificacoes .text-notificacoes {
+  width: 600px;
+  display: grid;
+  gap: 15px;
+}
+#notificacoes .text-notificacoes h2 {
+  color: #5fa064;
+  font-size: 30px;
+}
+#notificacoes .text-notificacoes h1 {
+  font-size: 40px;
+}
+#notificacoes .text-notificacoes p {
+  font-size: 20px;
+}
+#notificacoes .text-notificacoes div div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#notificacoes .text-notificacoes div div span {
+  font-size: 20px;
+}
+#notificacoes .notificacoes-extrato {
+  display: grid;
+  gap: 20px;
+}
+#notificacoes .notificacoes-extrato .noti-extrato-child {
+  display: flex;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  gap: 20px;
+}
+#notificacoes .notificacoes-extrato .noti-extrato-child h2 {
+  font-family: "MuseoModerno", cursive;
+  color: #5fa064;
+}
+#notificacoes .notificacoes-extrato .noti-extrato-child span {
+  font-size: 17px;
+}
+#notificacoes .notificacoes-extrato .noti-extrato-child img {
+  display: block;
+  width: 100%;
+  max-width: 60px;
+}
+
+#imgs-pagamentos {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#ferramentas {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+#ferramentas .text-ferramentas {
+  width: 600px;
+  display: grid;
+  gap: 10px;
+}
+#ferramentas .text-ferramentas h1 {
+  font-size: 40px;
+  color: #5fa064;
+}
+#ferramentas .text-ferramentas-02 {
+  display: grid;
+  gap: 20px;
+}
+#ferramentas .text-ferramentas-02 div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#ferramentas .text-ferramentas-02 div span {
+  font-size: 20px;
+}
+
+#cards-necessidades {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+#cards-necessidades .text-cards-nec {
+  display: grid;
+  gap: 40px;
+}
+#cards-necessidades .text-cards-nec .text-cards-childs {
+  display: grid;
+  gap: 10px;
+}
+#cards-necessidades .text-cards-nec .text-cards-childs h1 {
+  color: #5fa064;
+  font-size: 40px;
+}
+#cards-necessidades .text-cards-nec .text-cards-childs h2, #cards-necessidades .text-cards-nec .text-cards-childs p {
+  font-size: 25px;
+}
+#cards-necessidades .text-cards-nec .btn-card-01 {
+  border: none;
+  padding: 15px 35px;
+  border-radius: 30px;
+  background: #5fa064;
+  color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+#cards-necessidades .text-cards-nec .btn-card-02 {
+  margin-left: 20px;
+  border: none;
+  padding: 15px 35px;
+  border-radius: 30px;
+  color: #5fa064;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#clientes-comentarios {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+#clientes-comentarios .text-clientes-01 {
+  width: 550px;
+}
+#clientes-comentarios .text-clientes-01 h1 {
+  color: #5fa064;
+  font-size: 40px;
+}
+#clientes-comentarios .text-clientes-01 h2 {
+  font-size: 30px;
+}
+#clientes-comentarios .text-clientes-02 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#clientes-comentarios .text-clientes-02 span {
+  font-size: 20px;
+  color: #5fa064;
+}
+
+#comentarios {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+#comentarios .comentarios-child {
+  width: 420px;
+  display: grid;
+  gap: 15px;
+  border: solid 2px #5fa064;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+#comentarios .comentarios-child img {
+  width: 100%;
+  max-width: 30px;
+}
+#comentarios .comentarios-child div p {
+  color: #505050;
+}
+
+.h1-ajuda {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #5fa064;
+}
+
+#ajuda {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+#ajuda .ajuda-sec-01 {
+  display: grid;
+  gap: 50px;
+}
+#ajuda .ajuda-sec-01 .ajuda-sec-01-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#ajuda .ajuda-sec-01 .ajuda-sec-01-child div {
+  display: grid;
+  gap: 5px;
+}
+#ajuda .ajuda-sec-01 .ajuda-sec-02-child {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#ajuda .ajuda-sec-01 .ajuda-sec-02-child a {
+  text-decoration: none;
+  color: #5fa064;
+  font-size: 25px;
+}
+#ajuda .ajuda-sec-02 div {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  border-bottom: solid 1px #5fa064;
+  padding-bottom: 10px;
+}
+
+.blog-h1 {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.blog-h1 h1 {
+  color: #5fa064;
+  font-size: 50px;
+}
+.blog-h1 div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.blog-h1 div span {
+  font-size: 22px;
+  color: #5fa064;
+  cursor: pointer;
+}
+
+#blog {
+  max-width: 1400px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+#blog .blog-child {
+  width: 400px;
+  display: grid;
+}
+#blog .blog-child div div {
+  margin-top: 20px;
+}
+#blog .blog-child div div span {
+  background: #505050;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #f5f5f5;
+}
+#blog img {
+  width: 100%;
+}
+
+#footer-final {
+  max-width: 1400px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer-final .footer-sec-01 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "MuseoModerno", cursive;
+  color: #5fa064;
+  font-size: 23px;
+}
+#footer-final .footer-sec-02 {
+  font-family: "Montserrat", sans-serif;
+}
+#footer-final .footer-sec-02 h2 {
+  margin-bottom: 10px;
+}
+#footer-final .footer-sec-02 ul {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+#footer-final .footer-sec-02 ul a {
+  text-decoration: none;
+  color: #5fa064;
+  font-size: 20px;
+}
+
+#copy {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 0px;
+}
+#copy .copy-01 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#copy .copy-01 span {
+  color: #505050;
+}
+#copy .copy-01 h2 {
+  color: #5fa064;
+}
+#copy .copy-02 span {
+  color: #505050;
+}/*# sourceMappingURL=style.css.map */
