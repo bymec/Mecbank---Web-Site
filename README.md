@@ -72,4 +72,4 @@ Autores
 
 Licença
 
-Este projeto está sob a licença Maicon Mec.
+Este projeto está sob a licença Maicon Mec - Mateus Angel.
